@@ -208,8 +208,8 @@ include __DIR__ . '/../includes/header.php';
                 <p class="text-gray-300 mb-6">
                     Interested in partnering with ForeverBox? Learn about our Series A funding opportunity.
                 </p>
-                <a href="mailto:investors@foreverbox.cymru" class="block w-full px-6 py-3 bg-investment-secondary text-white font-semibold rounded-full text-center hover:bg-investment-primary transition-all">
-                    investors@foreverbox.cymru
+                <a href="mailto:investments@foreverbox.co.uk" class="block w-full px-6 py-3 bg-investment-secondary text-white font-semibold rounded-full text-center hover:bg-investment-primary transition-all">
+                    investments@foreverbox.co.uk
                 </a>
             </div>
             
@@ -224,8 +224,8 @@ include __DIR__ . '/../includes/header.php';
                 <p class="text-gray-300 mb-6">
                     Ready to begin your transformation journey? Schedule a consultation with our team.
                 </p>
-                <a href="mailto:transform@foreverbox.cymru" class="block w-full px-6 py-3 bg-fit-secondary text-white font-semibold rounded-full text-center hover:bg-fit-primary transition-all">
-                    transform@foreverbox.cymru
+                <a href="mailto:support@foreverbox.co.uk" class="block w-full px-6 py-3 bg-fit-secondary text-white font-semibold rounded-full text-center hover:bg-fit-primary transition-all">
+                    support@foreverbox.co.uk
                 </a>
             </div>
             
@@ -240,8 +240,8 @@ include __DIR__ . '/../includes/header.php';
                 <p class="text-gray-300 mb-6">
                     Press inquiries, partnership opportunities, and general questions welcome.
                 </p>
-                <a href="mailto:contact@foreverbox.cymru" class="block w-full px-6 py-3 bg-science-secondary text-white font-semibold rounded-full text-center hover:bg-science-primary transition-all">
-                    contact@foreverbox.cymru
+                <a href="mailto:hello@foreverbox.co.uk" class="block w-full px-6 py-3 bg-science-secondary text-white font-semibold rounded-full text-center hover:bg-science-primary transition-all">
+                    hello@foreverbox.co.uk
                 </a>
             </div>
         </div>

@@ -31,9 +31,9 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Connect</h3>
                     <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a href="mailto:investors@foreverbox.cymru" class="hover:text-white transition-colors">investors@foreverbox.cymru</a></li>
-                        <li><a href="mailto:transform@foreverbox.cymru" class="hover:text-white transition-colors">transform@foreverbox.cymru</a></li>
-                        <li><a href="mailto:contact@foreverbox.cymru" class="hover:text-white transition-colors">contact@foreverbox.cymru</a></li>
+                        <li><a href="mailto:investments@foreverbox.co.uk" class="hover:text-white transition-colors">investments@foreverbox.co.uk</a></li>
+                        <li><a href="mailto:support@foreverbox.co.uk" class="hover:text-white transition-colors">support@foreverbox.co.uk</a></li>
+                        <li><a href="mailto:hello@foreverbox.co.uk" class="hover:text-white transition-colors">hello@foreverbox.co.uk</a></li>
                         <li class="pt-2">Snowdonia, North Wales</li>
                     </ul>
                 </div>

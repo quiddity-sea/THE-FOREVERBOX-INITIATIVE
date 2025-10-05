@@ -69,7 +69,7 @@ The ForeverBox Initiative website has been successfully completed according to t
    - Snowdonia location information
    - Three contact sections (Investors, Clients, Media)
    - Newsletter signup form
-   - Email addresses: investors@, transform@, contact@foreverbox.cymru
+   - Email addresses: investments@, support@, hello@, drzeon7@foreverbox.co.uk
    - Color scheme: Balanced neutrals
 
 ---
@@ -318,9 +318,10 @@ All placeholder divs can be easily replaced with actual images by:
 ## 📧 Contact Integration
 
 ### Email Addresses Configured
-- **Investors**: investors@foreverbox.cymru
-- **Clients**: transform@foreverbox.cymru
-- **Media**: contact@foreverbox.cymru
+- **Investors**: investments@foreverbox.co.uk
+- **Clients**: support@foreverbox.co.uk
+- **Media**: hello@foreverbox.co.uk
+- **Dr. Zeon7**: drzeon7@foreverbox.co.uk
 
 ### Contact Points
 - [x] About page with three contact cards

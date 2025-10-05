@@ -110,7 +110,7 @@ Home (index.php)
 - Call to action
 
 **Color Scheme**: Professional navy/gold (#4a148c, #7b1fa2)  
-**CTAs**: Explore Our Vision, Contact Us (investors@foreverbox.cymru)
+**CTAs**: Explore Our Vision, Contact Us (investments@foreverbox.co.uk)
 
 ---
 
@@ -143,10 +143,11 @@ Home (index.php)
 - Footer with full contact info
 
 **Color Scheme**: Balanced neutrals with accents  
-**Contact Emails**:
-- investors@foreverbox.cymru
-- transform@foreverbox.cymru
-- contact@foreverbox.cymru
+### Contact Emails
+- **Investors**: investments@foreverbox.co.uk
+- **Clients**: support@foreverbox.co.uk
+- **Media**: hello@foreverbox.co.uk
+- **Dr. Zeon7**: drzeon7@foreverbox.co.uk
 
 ---
 

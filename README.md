@@ -206,8 +206,11 @@ We welcome contributions! Please ensure any changes maintain:
 ## Contact
 
 For questions or inquiries about The ForeverBox Initiative:
-- Website: [To be added]
-- Email: [To be added]
+- Website: https://foreverbox.co.uk
+- **Investors**: investments@foreverbox.co.uk
+- **Clients**: support@foreverbox.co.uk
+- **Media**: hello@foreverbox.co.uk
+- **Dr. Zeon7**: drzeon7@foreverbox.co.uk
 
 ## Acknowledgments
 

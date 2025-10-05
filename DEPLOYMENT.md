@@ -253,7 +253,7 @@ Set up automated backups for:
 For issues or questions:
 - Review documentation in `/README.md`
 - Check image requirements in `/images/IMAGES-NEEDED.md`
-- Contact: contact@foreverbox.cymru
+- Contact: hello@foreverbox.co.uk
 
 ## Development Mode
 
