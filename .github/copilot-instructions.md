@@ -1,272 +1,155 @@
 # Copilot Agent Instructions - ForeverBox Initiative
 
-## Repository Overview
+## Overview
 
-**The ForeverBox Initiative** is a PHP-based marketing website for a neurodivergent-first biotechnology organization. The site features bold, cinematic design with GSAP animations, unique color identities per section, and accessibility-first principles.
+PHP-based marketing website with GSAP animations, Tailwind CSS (CDN), and accessibility-first design. ~4,000 lines across 20+ files.
 
-**Tech Stack:**
-- **Backend:** PHP 8.3 (compatible with PHP 7.4+)
-- **Database:** MySQL 8.0 / MariaDB 5.7+ (optional - site works without DB)
-- **Frontend:** HTML5, Tailwind CSS (CDN), vanilla JavaScript
-- **Animations:** GSAP 3.12 with ScrollTrigger
-- **Server:** PHP built-in server for development, Apache/Nginx for production
+**Tech Stack:** PHP 8.3, MySQL 8.0 (optional), HTML5, Tailwind CSS (CDN), GSAP 3.12, vanilla JavaScript. No build step required.
 
-**Repository Size:** ~4,000 lines of PHP/JS/CSS code across 20+ files. This is a small, straightforward project with no complex build systems.
+## Build & Run
 
-## Build and Validation
+**No compilation needed.** All dependencies via CDN (Tailwind, GSAP, Google Fonts).
 
-### No Build Step Required
-This project has **NO compilation or build step**. It uses:
-- Tailwind CSS via CDN (no build needed)
-- GSAP via CDN
-- Vanilla JavaScript (no transpilation)
-- Native PHP (no Composer dependencies required)
-
-### Running the Development Server
-
-**Always use PHP's built-in server for testing:**
+**Development Server:**
 ```bash
-cd /home/runner/work/THE-FOREVERBOX-INITIATIVE/THE-FOREVERBOX-INITIATIVE
-php -S localhost:8000
+php -S localhost:8000  # From repository root
 ```
+Server starts instantly. Hard-refresh browser (Ctrl+F5) after changes.
 
-The server starts immediately and serves from the repository root. Access at `http://localhost:8000`.
-
-**Important:** The server does NOT auto-reload. After making changes, test by:
-1. Save your file changes
-2. Refresh browser (Ctrl+F5 for hard refresh)
-3. For JavaScript/CSS changes, always hard-refresh to bypass cache
-
-### Syntax Validation
-
-**Always check PHP syntax after editing PHP files:**
+**Validate PHP Syntax:**
 ```bash
 php -l filename.php
+# Or check all: find . -name "*.php" -exec php -l {} \; | grep -v "No syntax"
 ```
 
-Or check all PHP files:
+**Database (Optional - site works without it):**
 ```bash
-find . -name "*.php" -not -path "./vendor/*" -exec php -l {} \; | grep -v "No syntax errors"
-```
-
-This project has no automated linting or testing. Manual validation is required.
-
-### Database Setup (Optional)
-
-The database is **optional** - the site displays correctly without it. If database functionality is needed:
-
-```bash
-# 1. Create database
-mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS foreverbox_initiative CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;"
-
-# 2. Import schema
+mysql -u root -p -e "CREATE DATABASE foreverbox_initiative;"
 mysql -u root -p foreverbox_initiative < schema.sql
-
-# 3. Configure credentials
-cp .env.example .env
-# Edit .env with your database credentials
+cp .env.example .env  # Edit with DB credentials
 ```
 
-**Note:** Database connection errors do NOT prevent the site from displaying. The site is primarily static with optional DB integration.
-
-## Project Architecture
-
-### Directory Structure
+## Project Structure
 
 ```
-THE-FOREVERBOX-INITIATIVE/
-├── .github/                  # GitHub configuration (add files here)
-├── config/
-│   └── database.php          # PDO database connection class
+├── .github/               # GitHub configuration
+├── config/database.php    # PDO connection class
 ├── includes/
-│   ├── header.php            # Site header with navigation, <head>, Tailwind config
-│   └── footer.php            # Site footer with scripts
-├── pages/                    # All internal pages (7 files)
-│   ├── about.php             # Team and contact information
-│   ├── case-studies.php      # Transformation case studies
-│   ├── forever-fit.php       # Forever Fit app product page
-│   ├── investment.php        # Investment opportunity page
-│   ├── origin.php            # Founder story and timeline
-│   ├── science.php           # Quantum biology research
-│   └── vision.php            # Future vision and goals
-├── css/
-│   └── style.css             # Custom CSS (282 lines)
-├── js/
-│   └── animations.js         # GSAP animations and scroll triggers (269 lines)
-├── images/                   # Image assets (currently uses gradients)
-│   ├── .gitkeep
-│   ├── IMAGES-NEEDED.md      # List of required images
-│   └── README.md             # Image organization guide
-├── index.php                 # Homepage (286 lines)
-├── schema.sql                # Database schema (MariaDB)
-├── .env.example              # Environment template
-├── .gitignore                # Git ignore rules
-└── README.md, DEPLOYMENT.md, SITEMAP.md  # Documentation
+│   ├── header.php         # Nav, <head>, Tailwind config
+│   └── footer.php         # Scripts, footer
+├── pages/                 # 7 internal pages (283-765 lines each)
+│   ├── about.php, case-studies.php, forever-fit.php
+│   ├── investment.php, origin.php, science.php, vision.php
+├── css/style.css          # Custom CSS (282 lines)
+├── js/animations.js       # GSAP animations (269 lines)
+├── images/                # Assets (currently gradients)
+├── index.php              # Homepage (286 lines)
+└── schema.sql, .env.example, docs (.md files)
 ```
 
-### Key Architecture Facts
+**Key Facts:**
 
-**1. PHP Include Pattern:**
-All pages follow the same structure:
+**1. Include Pattern:** All pages use:
 ```php
 <?php
-$pageTitle = "Page Name";
+$pageTitle = "Name";
 include __DIR__ . '/../includes/header.php';  // For pages/ subdirectory
 ?>
-<!-- Page content -->
+<!-- Content -->
 <?php include __DIR__ . '/../includes/footer.php'; ?>
 ```
 
-**Important:** The `$basePath` variable is auto-calculated in header.php based on directory depth:
-- Pages in root: `$basePath = ''`
-- Pages in `pages/`: `$basePath = '../'`
+**$basePath auto-calculated in header.php:**
+- Root pages: `$basePath = ''`
+- pages/ subdirectory: `$basePath = '../'`
 
-This affects all asset links (CSS, JS, images). **Never hardcode paths** - always use `<?php echo $basePath; ?>`.
+**Always use** `<?php echo $basePath; ?>` for CSS/JS/image links. Never hardcode paths.
 
-**2. Color System:**
-Each section has a unique color identity defined in Tailwind config (includes/header.php):
-- Origin: `#1a237e` / `#3949ab` (deep blue)
-- Science: `#004d40` / `#00897b` (teal)
-- Case Studies: `#b71c1c` / `#e53935` (red)
-- Forever Fit: `#f57f17` / `#fbc02d` (amber)
-- Investment: `#4a148c` / `#7b1fa2` (purple)
-- Vision: `#01579b` / `#0288d1` (light blue)
+**2. Color System** (Tailwind config in header.php):
+- Origin: `from-origin-primary` (#1a237e/deep blue)
+- Science: `from-science-primary` (#004d40/teal)
+- Case Studies: `from-cases-primary` (#b71c1c/red)
+- Forever Fit: `from-fit-primary` (#f57f17/amber)
+- Investment: `from-investment-primary` (#4a148c/purple)
+- Vision: `from-vision-primary` (#01579b/light blue)
 
-Use classes like `from-origin-primary`, `to-science-secondary` in gradients.
-
-**3. Animation Classes:**
-GSAP animations are triggered by CSS classes (defined in js/animations.js):
-- `.fade-in` - Fade in on scroll
-- `.slide-left` / `.slide-right` - Slide animations
-- `.scale-image` - Scale animation
-- `.stagger-list` - Stagger children
-- `.counter` - Animated counter (needs `data-target` attribute)
+**3. GSAP Animation Classes** (animations.js):
+- `.fade-in`, `.slide-left`, `.slide-right` - Scroll-triggered animations
+- `.scale-image`, `.stagger-list` - Image/list animations
+- `.counter` (needs `data-target` attribute) - Animated counter
 - `.hero-section` with `.hero-bg` - Parallax hero effect
 
-**4. Accessibility Features:**
-- Respects `prefers-reduced-motion` (disables animations)
-- High contrast mode support
-- Semantic HTML structure
-- Keyboard navigation with visible focus indicators
-- Skip-to-content link (in CSS)
+**4. Accessibility:** Respects `prefers-reduced-motion`, high contrast mode, semantic HTML, keyboard navigation.
 
-## Common Pitfalls and Workarounds
+## Common Issues
 
-### Issue: CSS/JS Not Loading
-**Cause:** Incorrect `$basePath` variable usage
-**Solution:** Always use `<?php echo $basePath; ?>` for asset links. Never hardcode `/css/style.css` or `../css/style.css`.
+**CSS/JS Not Loading:** Incorrect `$basePath` - always use `<?php echo $basePath; ?>` for asset paths.
 
-### Issue: PHP Showing as Plain Text
-**Cause:** Not using PHP development server or web server misconfigured
-**Solution:** Always run `php -S localhost:8000` from repository root for testing.
+**PHP Shows as Text:** Server not running - use `php -S localhost:8000` from repository root.
 
-### Issue: Database Connection Errors
-**Cause:** Database not configured or credentials incorrect
-**Solution:** Database is optional. Site works without it. If needed, copy `.env.example` to `.env` and update credentials. The database class attempts connection but doesn't crash on failure.
+**Database Errors:** Database is optional. Site works without it. Ignore connection errors unless DB features needed.
 
-### Issue: Animation Not Working
-**Cause:** GSAP library not loading from CDN or JavaScript error
-**Solution:** 
-1. Check browser console for errors
-2. Verify internet connection (CDN resources required)
-3. Check if animation classes are properly applied to elements
+**Animations Not Working:** Check browser console for errors. Verify GSAP loading from CDN (requires internet).
 
-### Issue: Tailwind Classes Not Styling
-**Cause:** Tailwind is loaded via CDN in header.php, must have internet connection
-**Solution:** Verify `<script src="https://cdn.tailwindcss.com"></script>` is in header and loading. For offline development, consider downloading Tailwind.
+**Tailwind Classes Not Styling:** CDN requires internet. Header must load `<script src="https://cdn.tailwindcss.com"></script>`.
 
-## Validation Steps
+## Validation Before Committing
 
-### Before Committing Changes:
+**1. PHP Syntax:** `php -l path/to/file.php`
 
-**1. PHP Syntax Check:**
-```bash
-php -l path/to/modified/file.php
-```
-
-**2. Test Page Rendering:**
+**2. Test in Browser:**
 ```bash
 php -S localhost:8000
-# Open browser to http://localhost:8000 and test affected pages
+# Open http://localhost:8000, test modified pages
 ```
 
-**3. Visual Inspection:**
-- Check all modified pages in browser
-- Test both desktop and mobile views (resize browser)
-- Verify animations work (scroll down page)
-- Check navigation links work
-- Test with browser DevTools Console open (check for JS errors)
+**3. Visual Check:**
+- Desktop and mobile views (resize browser)
+- Scroll for animations
+- Navigation links work
+- Browser console for errors
 
-**4. Accessibility Check:**
-- Test keyboard navigation (Tab key)
-- Verify focus indicators are visible
-- Check that text has sufficient contrast
+**4. Accessibility:**
+- Tab key navigation works
+- Focus indicators visible
+- Text has contrast
 
-### Testing Specific Features:
+**Specific Tests:**
+- **Navigation:** All links load without 404
+- **Mobile Menu:** Hamburger icon toggles menu
+- **Animations:** Elements animate on scroll
+- **Colors:** Each page has distinct hero gradients
 
-**Navigation:** Click all nav links - they should load without 404 errors
-**Mobile Menu:** Click hamburger icon - menu should toggle
-**Animations:** Scroll down page - elements should animate into view
-**Color Scheme:** Each page should have distinct color gradients in hero section
+## Editing Guidelines
 
-## File Editing Guidelines
+**PHP Pages:**
+- Keep header/footer includes
+- Use existing color and animation classes
+- Preserve semantic HTML and accessibility
+- Test syntax after changes
 
-### When Editing PHP Pages:
+**CSS (css/style.css):**
+- Custom CSS overrides Tailwind
+- Don't remove focus styles or reduced-motion queries
 
-1. **Maintain Structure:** Don't remove header/footer includes
-2. **Use Existing Classes:** Follow the color and animation class patterns
-3. **Preserve Accessibility:** Keep semantic HTML, ARIA labels, alt text
-4. **Test Thoroughly:** PHP syntax errors break the entire page
+**JavaScript (js/animations.js):**
+- All animations wrapped in `if (typeof gsap !== 'undefined')`
+- Respects `prefers-reduced-motion` at end of file
+- Uses `will-change` and `force3D` for performance
 
-### When Editing CSS (css/style.css):
+## Reference
 
-1. **Check Specificity:** Custom CSS overrides Tailwind
-2. **Test Animations:** Verify `@keyframes` work across browsers
-3. **Accessibility:** Don't remove focus styles or reduced-motion queries
+**No CI/CD:** No GitHub Actions or automated tests. All validation is manual.
 
-### When Editing JavaScript (js/animations.js):
+**Zero Dependencies:** No npm/Composer packages. All via CDN (Tailwind, GSAP, Google Fonts).
 
-1. **GSAP Context:** All animations are inside `if (typeof gsap !== 'undefined')` check
-2. **Reduced Motion:** Code respects `prefers-reduced-motion` at the end of file
-3. **Performance:** Animations use `will-change` and `force3D` for smoothness
+**Documentation:** README.md (setup), DEPLOYMENT.md (production), SITEMAP.md (structure), images/IMAGES-NEEDED.md (assets).
 
-## Quick Reference
+**Workflow:**
+1. Start server: `php -S localhost:8000`
+2. Make changes
+3. Validate: `php -l file.php`
+4. Test in browser (hard-refresh)
+5. Database is optional - ignore DB errors
 
-### File Line Counts (for context):
-- index.php: 286 lines
-- pages/about.php: 283 lines
-- pages/case-studies.php: 606 lines
-- pages/forever-fit.php: 765 lines (largest)
-- pages/investment.php: 345 lines
-- pages/origin.php: 508 lines
-- pages/science.php: 531 lines
-- pages/vision.php: 390 lines
-- css/style.css: 282 lines
-- js/animations.js: 269 lines
-
-### No CI/CD Pipeline
-This repository has **no GitHub Actions, CI/CD, or automated tests**. Validation is entirely manual.
-
-### Dependencies
-- **Zero npm packages** - No node_modules
-- **Zero Composer packages** - No vendor folder
-- **All dependencies via CDN** - Tailwind, GSAP, Google Fonts
-
-### Documentation Files
-- README.md - Project overview and setup instructions
-- DEPLOYMENT.md - Production deployment guide
-- SITEMAP.md - Site structure and user journeys
-- COMPLETION-SUMMARY.md - Project completion status
-- images/IMAGES-NEEDED.md - Required image specifications
-
-## Trust These Instructions
-
-These instructions are comprehensive and verified by testing. When working on this repository:
-
-1. **Start PHP server first:** `php -S localhost:8000`
-2. **Check syntax after edits:** `php -l file.php`
-3. **Test in browser immediately**
-4. **No build step needed** - changes are immediate
-5. **Database is optional** - don't worry about DB errors
-
-Only search for additional information if these instructions are incomplete or you encounter unexpected behavior not documented here.
+Search only if these instructions are incomplete or incorrect.
