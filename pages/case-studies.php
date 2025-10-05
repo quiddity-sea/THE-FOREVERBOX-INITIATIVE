@@ -22,21 +22,29 @@ include __DIR__ . '/../includes/header.php';
 <section class="py-32 bg-black">
     <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Transforming Lives Through Science</h2>
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Leading by Example</h2>
             <p class="text-xl text-gray-300 leading-relaxed fade-in">
-                These case studies represent real individuals whose lives have been transformed by 
-                The ForeverBox Initiative. Names and identifying details have been changed to protect 
-                privacy, but the outcomes are authentic and verified.
+                Our founder, Dr. Zeon7, has undergone the most experimental and transformative protocol 
+                as living proof of what's possible. This is not theoretical research—this is personal 
+                commitment to the science of human biological enhancement.
             </p>
         </div>
     </div>
 </section>
 
-<!-- Case Study 1 -->
+<!-- Case Study: Dr. Zeon7 -->
 <section class="py-32 bg-gradient-to-b from-black to-cases-primary/10">
     <div class="container mx-auto px-6">
         <div class="max-w-6xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div class="mb-12 text-center">
+                <span class="inline-block px-4 py-1 bg-cases-secondary/20 text-cases-secondary rounded-full text-sm font-semibold">
+                    Case Study Delta
+                </span>
+                <h3 class="text-3xl md:text-5xl font-bold mt-6 mb-4">Dr. Zeon7 (Founder)</h3>
+                <p class="text-xl text-cases-secondary">Hybrid Augmentation Protocol</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
                 <div class="slide-left">
                     <div class="bg-cases-primary/20 rounded-2xl p-2 border border-cases-primary/30">
                         <div class="aspect-w-16 aspect-h-9 bg-gray-800 rounded-xl flex items-center justify-center">
@@ -44,28 +52,81 @@ include __DIR__ . '/../includes/header.php';
                                 <svg class="w-24 h-24 mx-auto text-cases-secondary mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
                                 </svg>
-                                <p class="text-gray-400 text-sm">Participant Profile</p>
+                                <p class="text-gray-400 text-sm">Founder Profile</p>
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Key Metrics Box -->
+                    <div class="mt-8 bg-cases-primary/10 rounded-2xl p-6 border border-cases-primary/30">
+                        <h4 class="text-xl font-bold mb-4 text-cases-secondary">Key Metrics</h4>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex justify-between">
+                                <span>Duration:</span>
+                                <strong class="text-white">7 years (ongoing)</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Genetic sequences:</span>
+                                <strong class="text-white">47 modifications</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Olfactory enhancement:</span>
+                                <strong class="text-white">10,000x</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Healing speed:</span>
+                                <strong class="text-white">+40%</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Flexibility:</span>
+                                <strong class="text-white">+60%</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Cardiovascular:</span>
+                                <strong class="text-white">+25%</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Reversibility:</span>
+                                <strong class="text-white">Irreversible</strong>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 
-                <div class="slide-right">
-                    <div class="mb-4">
-                        <span class="inline-block px-4 py-1 bg-cases-secondary/20 text-cases-secondary rounded-full text-sm font-semibold">
-                            Growth & Development
-                        </span>
+                <div class="slide-right space-y-6">
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">Profile</h4>
+                        <p class="text-gray-300">38-year-old (at initiation) biotechnology researcher, ForeverBox founder. Presenting challenge: Vision for human biological enhancement beyond baseline optimisation. Intervention duration: Ongoing (initiated 7 years ago).</p>
                     </div>
-                    <h3 class="text-3xl md:text-4xl font-bold mb-6">Sarah's Journey: Height Optimization</h3>
-                    <div class="space-y-4 text-lg text-gray-300">
-                        <p><strong class="text-white">Background:</strong> 28-year-old neurodivergent individual seeking height optimization due to lifelong dysphoria.</p>
-                        <p><strong class="text-white">Challenge:</strong> Traditional approaches were ineffective and didn't account for her unique cognitive processing patterns.</p>
-                        <p><strong class="text-white">Solution:</strong> Personalized quantum biology protocol combined with AI-guided therapy adjustments based on real-time biomarker feedback.</p>
-                        <p><strong class="text-white">Results:</strong> 3.2 cm height increase over 18 months with improved bone density and overall well-being. Most significantly, reported 85% reduction in height-related dysphoria.</p>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">Outcome</h4>
+                        <p class="text-gray-300">Stable integration of lupine genetic sequences, enhanced sensory and physical capabilities.</p>
                     </div>
-                    <div class="mt-8 p-6 bg-cases-secondary/10 rounded-lg border-l-4 border-cases-secondary">
-                        <p class="italic text-gray-300">"For the first time, I feel like a treatment was designed <em>for</em> me, not despite me. The results exceeded my expectations."</p>
-                        <p class="text-sm text-gray-400 mt-2">- Sarah M.</p>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">The Transformation</h4>
+                        <p class="text-gray-300 mb-3">My own transformation represents the most experimental and controversial aspect of ForeverBox research. I chose to undergo hybrid augmentation not from dissatisfaction with human baseline biology, but from curiosity about human biological plasticity and the potential for functional enhancement through cross-species genetic integration.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">The Protocol</h4>
+                        <div class="space-y-4 text-gray-300">
+                            <div>
+                                <p class="font-semibold text-cases-secondary mb-2">Phase One (Year 1): Genetic Sequence Selection</p>
+                                <p>Working with AI analysis systems, we identified specific canid (wolf) genetic sequences related to sensory enhancement, particularly olfactory processing and auditory range, as well as connective tissue resilience and metabolic efficiencies. These were carefully selected regulatory sequences and protein-coding regions that could integrate with existing human genetic architecture.</p>
+                            </div>
+                            
+                            <div>
+                                <p class="font-semibold text-cases-secondary mb-2">Phase Two (Years 2-3): Viral Vector Delivery</p>
+                                <p>Using modified AAV (adeno-associated virus) vectors, we introduced lupine sequences in carefully orchestrated phases. The visible morphological changes—lupine ears, altered hair patterns, modified facial structure—emerged gradually as integrated genetic sequences influenced cellular differentiation during natural tissue turnover and targeted regeneration.</p>
+                            </div>
+                            
+                            <div>
+                                <p class="font-semibold text-cases-secondary mb-2">Phase Three (Years 4-7): Integration & Monitoring</p>
+                                <p>Continuous monitoring, fine-tuning expression levels, and allowing stable integration. The changes are now permanent, encoded in my genome, and would be heritable should I choose to reproduce.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -73,159 +134,139 @@ include __DIR__ . '/../includes/header.php';
     </div>
 </section>
 
-<!-- Case Study 2 -->
+<!-- Results Section -->
 <section class="py-32 bg-black">
     <div class="container mx-auto px-6">
         <div class="max-w-6xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div class="order-2 lg:order-1 slide-left">
-                    <div class="mb-4">
-                        <span class="inline-block px-4 py-1 bg-cases-secondary/20 text-cases-secondary rounded-full text-sm font-semibold">
-                            Anti-Aging
-                        </span>
-                    </div>
-                    <h3 class="text-3xl md:text-4xl font-bold mb-6">Marcus's Journey: Cellular Rejuvenation</h3>
-                    <div class="space-y-4 text-lg text-gray-300">
-                        <p><strong class="text-white">Background:</strong> 45-year-old with ADHD experiencing accelerated aging markers and cognitive decline concerns.</p>
-                        <p><strong class="text-white">Challenge:</strong> Standard anti-aging protocols didn't account for neurodivergent metabolic patterns.</p>
-                        <p><strong class="text-white">Solution:</strong> Customized quantum cellular therapy targeting mitochondrial function and telomere maintenance, adapted for ADHD-specific patterns.</p>
-                        <p><strong class="text-white">Results:</strong> Biological age reduced by 7 years (measured via epigenetic clock), improved cognitive function, and sustained energy levels over 2-year follow-up.</p>
-                    </div>
-                    <div class="mt-8 p-6 bg-cases-secondary/10 rounded-lg border-l-4 border-cases-secondary">
-                        <p class="italic text-gray-300">"I not only look younger—I feel sharper and more focused than I did in my 30s. This approach respects how my brain works."</p>
-                        <p class="text-sm text-gray-400 mt-2">- Marcus T.</p>
-                    </div>
+            <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center">Enhanced Capabilities</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="bg-cases-primary/10 rounded-2xl p-8 border border-cases-primary/30">
+                    <h3 class="text-2xl font-bold mb-6 text-cases-secondary">Sensory Enhancement</h3>
+                    <p class="text-gray-300 mb-4">
+                        I now possess sensory capabilities significantly beyond human baseline. My olfactory 
+                        discrimination is estimated at 10,000 times more sensitive than typical human smell, 
+                        allowing me to detect biochemical signatures others cannot perceive.
+                    </p>
+                    <p class="text-gray-300">
+                        My auditory range extends into ultrasonic frequencies, and my low-light vision is 
+                        substantially enhanced.
+                    </p>
                 </div>
                 
-                <div class="order-1 lg:order-2 slide-right">
-                    <div class="bg-cases-primary/20 rounded-2xl p-2 border border-cases-primary/30">
-                        <div class="aspect-w-16 aspect-h-9 bg-gray-800 rounded-xl flex items-center justify-center">
-                            <div class="text-center p-8">
-                                <svg class="w-24 h-24 mx-auto text-cases-secondary mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                </svg>
-                                <p class="text-gray-400 text-sm">Success Metrics</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="bg-cases-primary/10 rounded-2xl p-8 border border-cases-primary/30">
+                    <h3 class="text-2xl font-bold mb-6 text-cases-secondary">Physical Improvements</h3>
+                    <p class="text-gray-300 mb-4">
+                        The lupine characteristics visible in accompanying photographs represent stable 
+                        morphological integration. I retain full human cognitive function, emotional range, 
+                        and social capability whilst possessing augmented physical attributes.
+                    </p>
+                    <p class="text-gray-300">
+                        Enhanced healing speed, greater joint flexibility, and improved cardiovascular efficiency.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Case Study 3 -->
+<!-- Psychological & Philosophical Impact -->
 <section class="py-32 bg-gradient-to-b from-black to-cases-primary/10">
     <div class="container mx-auto px-6">
-        <div class="max-w-6xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div class="slide-left">
-                    <div class="bg-cases-primary/20 rounded-2xl p-2 border border-cases-primary/30">
-                        <div class="aspect-w-16 aspect-h-9 bg-gray-800 rounded-xl flex items-center justify-center">
-                            <div class="text-center p-8">
-                                <svg class="w-24 h-24 mx-auto text-cases-secondary mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                                </svg>
-                                <p class="text-gray-400 text-sm">Enhanced Performance</p>
-                            </div>
-                        </div>
-                    </div>
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center fade-in">Beyond the Physical</h2>
+            
+            <div class="space-y-8 text-lg text-gray-300">
+                <p class="fade-in">
+                    Psychologically, the transformation has been profound. I do not feel "less human," 
+                    rather I feel as though I have accessed latent potential within human biology's 
+                    remarkable plasticity. I am more capable, more perceptive, and more resilient.
+                </p>
+                
+                <p class="fade-in">
+                    As a thoughtform who has always existed between categories, the wolf-man form feels 
+                    authentic to my nature. During PRIDE events particularly, I present proudly as both 
+                    celebration of queer identity and living symbol of transformation as revelation 
+                    rather than concealment. The wolf does not hide the man; it clarifies and amplifies him.
+                </p>
+                
+                <div class="bg-cases-secondary/10 rounded-xl p-8 border-l-4 border-cases-secondary fade-in">
+                    <p class="text-xl italic mb-4">
+                        "This work remains highly experimental. We are not offering hybrid augmentation 
+                        as a commercial service, and likely won't for many years. The ethical, social, 
+                        and technical complexities require far more research and societal dialogue."
+                    </p>
+                    <p class="text-sm text-gray-400">- Dr. Zeon7</p>
                 </div>
                 
-                <div class="slide-right">
-                    <div class="mb-4">
-                        <span class="inline-block px-4 py-1 bg-cases-secondary/20 text-cases-secondary rounded-full text-sm font-semibold">
-                            Performance Enhancement
-                        </span>
-                    </div>
-                    <h3 class="text-3xl md:text-4xl font-bold mb-6">Alex's Journey: Athletic Optimization</h3>
-                    <div class="space-y-4 text-lg text-gray-300">
-                        <p><strong class="text-white">Background:</strong> 32-year-old autistic athlete seeking to optimize recovery and performance without masking neurodivergent traits.</p>
-                        <p><strong class="text-white">Challenge:</strong> Traditional sports medicine protocols caused sensory overwhelm and didn't accommodate autistic recovery patterns.</p>
-                        <p><strong class="text-white">Solution:</strong> Quantum-enhanced recovery protocols with sensory-aware administration and AI-optimized timing based on individual circadian and stim patterns.</p>
-                        <p><strong class="text-white">Results:</strong> 40% faster recovery times, 25% improvement in endurance metrics, and significantly reduced sensory overwhelm during treatment.</p>
-                    </div>
-                    <div class="mt-8 p-6 bg-cases-secondary/10 rounded-lg border-l-4 border-cases-secondary">
-                        <p class="italic text-gray-300">"Finally, a program that sees my autism as an advantage, not an obstacle. My performance has never been better."</p>
-                        <p class="text-sm text-gray-400 mt-2">- Alex R.</p>
-                    </div>
-                </div>
+                <p class="fade-in">
+                    But I present myself as proof of concept: human biology can integrate functional 
+                    enhancements from other species whilst retaining full humanity.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Outcomes Section -->
+<!-- Commitment to Research -->
 <section class="py-32 bg-black">
-    <div class="container mx-auto px-6">
-        <h2 class="text-4xl md:text-5xl font-bold text-center mb-20">Aggregate Outcomes</h2>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto stagger-list">
-            <div class="bg-cases-primary/10 rounded-xl p-8 border border-cases-primary/30 text-center">
-                <div class="text-4xl font-bold text-cases-secondary mb-3 counter" data-target="92" data-duration="2">0</div>
-                <div class="text-gray-400">% Success Rate</div>
-            </div>
-            
-            <div class="bg-cases-primary/10 rounded-xl p-8 border border-cases-primary/30 text-center">
-                <div class="text-4xl font-bold text-cases-secondary mb-3 counter" data-target="500" data-duration="2.5">0</div>
-                <div class="text-gray-400">Participants Served</div>
-            </div>
-            
-            <div class="bg-cases-primary/10 rounded-xl p-8 border border-cases-primary/30 text-center">
-                <div class="text-4xl font-bold text-cases-secondary mb-3 counter" data-target="88" data-duration="2">0</div>
-                <div class="text-gray-400">% Report Improved QOL</div>
-            </div>
-            
-            <div class="bg-cases-primary/10 rounded-xl p-8 border border-cases-primary/30 text-center">
-                <div class="text-4xl font-bold text-cases-secondary mb-3 counter" data-target="24" data-duration="2">0</div>
-                <div class="text-gray-400">Month Avg. Follow-up</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Methodology -->
-<section class="py-32 bg-gradient-to-b from-black to-cases-primary/10">
     <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto">
             <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center fade-in">Our Commitment to Evidence</h2>
             
             <div class="space-y-8 text-lg text-gray-300">
                 <p class="fade-in">
-                    Every case study undergoes rigorous peer review and validation. We track not just 
-                    quantitative metrics but also qualitative improvements in quality of life, autonomy, 
-                    and personal satisfaction.
+                    This case study represents the most advanced work at The ForeverBox Initiative. 
+                    It undergoes continuous monitoring and validation, with rigorous tracking of not just 
+                    quantitative metrics but also qualitative improvements in capability, autonomy, 
+                    and personal integration.
                 </p>
                 
                 <p class="fade-in">
-                    Our neurodivergent-first approach means success is defined by participants themselves, 
-                    not by neurotypical standards. We measure outcomes that matter to individuals, whether 
-                    that's physical changes, cognitive improvements, or enhanced well-being.
+                    Our neurodivergent-first approach means success is defined holistically—encompassing 
+                    physical, cognitive, and psychological well-being. We measure outcomes that matter: 
+                    enhanced capabilities, authentic self-expression, and improved quality of life.
                 </p>
                 
                 <p class="fade-in">
-                    Long-term follow-up is mandatory—we track participants for years, not months, to ensure 
-                    sustainable benefits and identify any late-emerging effects. Transparency and ongoing 
-                    consent are foundational to our research ethics.
+                    Long-term monitoring is ongoing—we track outcomes over years, not months, to ensure 
+                    sustainable benefits and identify any late-emerging effects. Transparency and continuous 
+                    documentation are foundational to our research ethics.
                 </p>
+                
+                <div class="bg-cases-primary/10 rounded-xl p-8 border border-cases-primary/30 fade-in">
+                    <p class="text-gray-300 mb-4">
+                        <strong class="text-white">Important Note:</strong> Hybrid augmentation represents 
+                        highly experimental research and is not currently offered as a clinical service. 
+                        Dr. Zeon7's case study demonstrates the potential of genetic integration technology 
+                        but requires extensive additional research, ethical framework development, and 
+                        societal dialogue before broader application.
+                    </p>
+                    <p class="text-gray-300">
+                        ForeverBox's current clinical focus is on proven interventions: age reversal, 
+                        skeletal modification, and body recomposition protocols with established safety 
+                        profiles and regulatory pathways.
+                    </p>
+                </div>
             </div>
         </div>
     </div>
 </section>
 
 <!-- CTA Section -->
-<section class="py-32 bg-black">
+<section class="py-32 bg-gradient-to-b from-black to-cases-primary/10">
     <div class="container mx-auto px-6 text-center">
-        <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Could You Be Next?</h2>
+        <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Ready to Explore Your Transformation?</h2>
         <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto fade-in">
-            Learn more about Forever Fit and how our programs could transform your life.
+            While hybrid augmentation remains experimental, ForeverBox offers proven clinical interventions 
+            and our Forever Fit digital health platform to support your journey.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in">
             <a href="forever-fit.php" class="px-8 py-4 bg-cases-secondary text-white font-semibold rounded-full hover:bg-cases-primary transition-all">
-                Explore Forever Fit
+                Explore Forever Fit App
             </a>
-            <a href="investment.php" class="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all">
-                Join Our Mission
+            <a href="science.php" class="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all">
+                Learn the Science
             </a>
         </div>
     </div>
