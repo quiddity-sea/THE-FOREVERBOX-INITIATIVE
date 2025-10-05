@@ -22,13 +22,14 @@ if (typeof gsap !== 'undefined') {
         }
     });
 
-    // Parallax effect for hero sections
+    // Enhanced parallax effect with large zoom for hero sections
     const heroSections = document.querySelectorAll('.hero-section');
     heroSections.forEach(section => {
         const bg = section.querySelector('.hero-bg');
         if (bg) {
             gsap.to(bg, {
                 yPercent: 30,
+                scale: 1.3,
                 ease: 'none',
                 scrollTrigger: {
                     trigger: section,
@@ -38,6 +39,21 @@ if (typeof gsap !== 'undefined') {
                 }
             });
         }
+    });
+
+    // Large zoom animation for cinematic images
+    const cinematicImages = document.querySelectorAll('.cinematic-image img');
+    cinematicImages.forEach(img => {
+        gsap.from(img, {
+            scale: 1.5,
+            duration: 2,
+            ease: 'power2.out',
+            scrollTrigger: {
+                trigger: img,
+                start: 'top 80%',
+                toggleActions: 'play none none none'
+            }
+        });
     });
 
     // Fade in elements on scroll
@@ -171,7 +187,53 @@ if (typeof gsap !== 'undefined') {
             ease: 'power3.out'
         });
     });
-}
+
+    // Card flip animation on scroll
+    const flipCards = document.querySelectorAll('.flip-card');
+    flipCards.forEach(card => {
+        gsap.from(card, {
+            scrollTrigger: {
+                trigger: card,
+                start: 'top 80%',
+                toggleActions: 'play none none none'
+            },
+            rotationY: -90,
+            opacity: 0,
+            duration: 1,
+            ease: 'back.out(1.7)'
+        });
+    });
+
+    // Elastic bounce animation
+    const bounceElements = document.querySelectorAll('.elastic-element');
+    bounceElements.forEach(element => {
+        gsap.from(element, {
+            scrollTrigger: {
+                trigger: element,
+                start: 'top 85%',
+                toggleActions: 'play none none none'
+            },
+            scale: 0,
+            duration: 1.2,
+            ease: 'elastic.out(1, 0.5)'
+        });
+    });
+
+    // Parallax depth layers
+    const parallaxLayers = document.querySelectorAll('.parallax-layer');
+    parallaxLayers.forEach((layer, index) => {
+        const speed = layer.dataset.speed || (index + 1) * 0.5;
+        gsap.to(layer, {
+            y: () => window.innerHeight * speed * 0.5,
+            ease: 'none',
+            scrollTrigger: {
+                trigger: layer,
+                start: 'top bottom',
+                end: 'bottom top',
+                scrub: true
+            }
+        });
+    });
 
 // Intersection Observer for lazy loading
 if ('IntersectionObserver' in window) {
