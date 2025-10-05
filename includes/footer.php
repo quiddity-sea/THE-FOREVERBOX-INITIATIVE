@@ -23,16 +23,19 @@
                         <li><a href="<?php echo $basePath; ?>pages/forever-fit.php" class="text-gray-400 hover:text-white transition-colors">Forever Fit</a></li>
                         <li><a href="<?php echo $basePath; ?>pages/investment.php" class="text-gray-400 hover:text-white transition-colors">Investment</a></li>
                         <li><a href="<?php echo $basePath; ?>pages/vision.php" class="text-gray-400 hover:text-white transition-colors">Vision</a></li>
+                        <li><a href="<?php echo $basePath; ?>pages/about.php" class="text-gray-400 hover:text-white transition-colors">About</a></li>
                     </ul>
                 </div>
                 
                 <!-- Contact -->
                 <div>
                     <h3 class="text-xl font-bold mb-4">Connect</h3>
-                    <p class="text-gray-400 text-sm mb-3">From Snowdonia labs to global digital health.</p>
-                    <div class="text-sm text-gray-400">
-                        <p>Join us in transforming the future.</p>
-                    </div>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="mailto:investors@foreverbox.cymru" class="hover:text-white transition-colors">investors@foreverbox.cymru</a></li>
+                        <li><a href="mailto:transform@foreverbox.cymru" class="hover:text-white transition-colors">transform@foreverbox.cymru</a></li>
+                        <li><a href="mailto:contact@foreverbox.cymru" class="hover:text-white transition-colors">contact@foreverbox.cymru</a></li>
+                        <li class="pt-2">Snowdonia, North Wales</li>
+                    </ul>
                 </div>
             </div>
             

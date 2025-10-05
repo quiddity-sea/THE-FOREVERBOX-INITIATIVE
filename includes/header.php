@@ -114,6 +114,7 @@ $basePath = (basename(dirname($_SERVER['PHP_SELF'])) === 'pages') ? '../' : '';
                     <li><a href="<?php echo $basePath; ?>pages/forever-fit.php" class="nav-link hover:text-fit-secondary transition-colors">Forever Fit</a></li>
                     <li><a href="<?php echo $basePath; ?>pages/investment.php" class="nav-link hover:text-investment-secondary transition-colors">Investment</a></li>
                     <li><a href="<?php echo $basePath; ?>pages/vision.php" class="nav-link hover:text-vision-secondary transition-colors">Vision</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/about.php" class="nav-link hover:text-gray-300 transition-colors">About</a></li>
                 </ul>
                 
                 <!-- Mobile Menu Button -->
@@ -133,6 +134,7 @@ $basePath = (basename(dirname($_SERVER['PHP_SELF'])) === 'pages') ? '../' : '';
                     <li><a href="<?php echo $basePath; ?>pages/forever-fit.php" class="block py-2 hover:text-fit-secondary transition-colors">Forever Fit</a></li>
                     <li><a href="<?php echo $basePath; ?>pages/investment.php" class="block py-2 hover:text-investment-secondary transition-colors">Investment</a></li>
                     <li><a href="<?php echo $basePath; ?>pages/vision.php" class="block py-2 hover:text-vision-secondary transition-colors">Vision</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/about.php" class="block py-2 hover:text-gray-300 transition-colors">About</a></li>
                 </ul>
             </div>
         </div>
