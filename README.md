@@ -55,9 +55,9 @@ This is a PHP-based website with MariaDB backend, featuring HTML5, Tailwind CSS,
 4. **Set up web server**
    
    **For Apache:**
-   - Point document root to `/public` directory
+   - Point document root to the repository root directory
    - Enable mod_rewrite
-   - Sample `.htaccess` (create in `/public`):
+   - Sample `.htaccess` (create in root):
    ```apache
    RewriteEngine On
    RewriteCond %{REQUEST_FILENAME} !-f
@@ -70,7 +70,7 @@ This is a PHP-based website with MariaDB backend, featuring HTML5, Tailwind CSS,
    server {
        listen 80;
        server_name yourdomain.com;
-       root /path/to/THE-FOREVERBOX-INITIATIVE/public;
+       root /path/to/THE-FOREVERBOX-INITIATIVE;
        index index.php;
 
        location / {
@@ -88,7 +88,6 @@ This is a PHP-based website with MariaDB backend, featuring HTML5, Tailwind CSS,
 
 5. **For local development**
    ```bash
-   cd public
    php -S localhost:8000
    ```
    Then visit http://localhost:8000
@@ -109,13 +108,12 @@ THE-FOREVERBOX-INITIATIVE/
 │   ├── forever-fit.php       # Forever Fit page
 │   ├── investment.php        # Investment page
 │   └── vision.php            # Vision page
-├── public/
-│   ├── css/
-│   │   └── style.css         # Custom styles
-│   ├── js/
-│   │   └── animations.js     # GSAP animations
-│   ├── images/               # Image assets
-│   └── index.php             # Homepage
+├── css/
+│   └── style.css             # Custom styles
+├── js/
+│   └── animations.js         # GSAP animations
+├── images/                   # Image assets
+├── index.php                 # Homepage
 ├── .env.example              # Environment variables template
 ├── .gitignore               # Git ignore rules
 ├── schema.sql               # Database schema
@@ -153,11 +151,11 @@ Each section has a unique color identity:
 
 ### Customizing Styles
 
-Edit `/public/css/style.css` for custom styles. Tailwind classes are available via CDN.
+Edit `/css/style.css` for custom styles. Tailwind classes are available via CDN.
 
 ### Animations
 
-GSAP animations are configured in `/public/js/animations.js`. Common classes:
+GSAP animations are configured in `/js/animations.js`. Common classes:
 - `.fade-in` - Fade in on scroll
 - `.slide-left` - Slide in from left
 - `.slide-right` - Slide in from right
