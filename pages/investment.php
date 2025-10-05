@@ -334,7 +334,7 @@ include __DIR__ . '/../includes/header.php';
             <a href="vision.php" class="px-8 py-4 bg-investment-secondary text-white font-semibold rounded-full hover:bg-investment-primary transition-all">
                 Explore Our Vision
             </a>
-            <a href="mailto:invest@foreverbox.initiative" class="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all">
+            <a href="mailto:investments@foreverbox.co.uk" class="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all">
                 Contact Us
             </a>
         </div>

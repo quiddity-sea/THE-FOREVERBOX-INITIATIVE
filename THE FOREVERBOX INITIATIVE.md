@@ -367,6 +367,6 @@ The future is not something that happens to us. It's something we author, one ch
 
 Welcome to ForeverBox. Welcome to your own transformation.
 
-**Dr. Zeon7** *Founder & Chief Scientific Officer* *The ForeverBox Initiative* *Snowdonia, North Wales* **For Investment Inquiries:** investors@foreverbox.cymru **For Client Consultations:** transform@foreverbox.cymru **For Media and Partnership:** contact@foreverbox.cymru **Physical Address:** The ForeverBox Institute Snowdonia Research Campus Betws-y-Coed, Conwy North Wales, United Kingdom *All case studies presented with full informed consent. Photographs and identifying details used with explicit permission. Medical claims subject to ongoing regulatory review.*
+**Dr. Zeon7** *Founder & Chief Scientific Officer* *The ForeverBox Initiative* *Snowdonia, North Wales* **For Investment Inquiries:** investments@foreverbox.co.uk **For Client Consultations:** support@foreverbox.co.uk **For Media and Partnership:** hello@foreverbox.co.uk **Direct Contact:** drzeon7@foreverbox.co.uk **Physical Address:** The ForeverBox Institute Snowdonia Research Campus Betws-y-Coed, Conwy North Wales, United Kingdom *All case studies presented with full informed consent. Photographs and identifying details used with explicit permission. Medical claims subject to ongoing regulatory review.*
 
  **Total Word Count: Approximately 11,500 words**  
