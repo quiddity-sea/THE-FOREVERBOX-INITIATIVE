@@ -103,10 +103,11 @@ include __DIR__ . '/../includes/header.php';
                     <div class="text-5xl font-bold text-origin-secondary">2023</div>
                 </div>
                 <div class="md:w-3/4">
-                    <h3 class="text-2xl font-bold mb-3">Forever Fit Launch</h3>
+                    <h3 class="text-2xl font-bold mb-3">Forever Fit App Development</h3>
                     <p class="text-gray-300 leading-relaxed">
-                        Introduction of Forever Fit, our flagship program addressing height optimization, 
-                        aging, and holistic human enhancement through quantum biology principles.
+                        Development of Forever Fit, our digital health platform providing accessible, 
+                        neurodivergent-first health management through integrated exercise, nutrition, 
+                        and medication tracking.
                     </p>
                 </div>
             </div>

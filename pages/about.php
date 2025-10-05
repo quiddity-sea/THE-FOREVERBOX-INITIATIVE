@@ -64,8 +64,8 @@ include __DIR__ . '/../includes/header.php';
                         
                         <p>
                             Based in Snowdonia, North Wales, Dr. Zeon7 leads a diverse team of researchers, clinicians, 
-                            and neurodivergent collaborators working to democratize access to transformative biotechnologies 
-                            through the Forever Fit platform.
+                            and neurodivergent collaborators working to advance clinical biotechnologies and democratize 
+                            wellness through the Forever Fit digital health app.
                         </p>
                     </div>
                     
