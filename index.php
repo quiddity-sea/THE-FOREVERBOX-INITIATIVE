@@ -17,6 +17,9 @@ include __DIR__ . '/includes/header.php';
     
     <!-- Content -->
     <div class="relative z-10 container mx-auto px-6 text-center">
+        <p class="text-lg md:text-xl text-gray-400 mb-4 uppercase tracking-wider" id="hero-tagline">
+            Breaking Twelve Years of Silence
+        </p>
         <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight" id="hero-title">
             The ForeverBox<br>Initiative
         </h1>
@@ -27,9 +30,14 @@ include __DIR__ . '/includes/header.php';
         <p class="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto" id="hero-description">
             From Snowdonia labs to global digital health, we transform height, aging, and human potential through Forever Fit.
         </p>
-        <a href="#explore" class="inline-block px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all transform hover:scale-105" id="hero-cta">
-            Explore Our Vision
-        </a>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a href="pages/science.php" class="inline-block px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all transform hover:scale-105" id="hero-cta">
+                Explore the Science
+            </a>
+            <a href="pages/investment.php" class="inline-block px-8 py-4 bg-transparent border-2 border-white text-white font-semibold rounded-full hover:bg-white hover:text-black transition-all transform hover:scale-105">
+                Investment Opportunity
+            </a>
+        </div>
     </div>
     
     <!-- Scroll indicator -->
@@ -135,6 +143,56 @@ include __DIR__ . '/includes/header.php';
                 Our mission extends from cutting-edge research in Snowdonia to global digital health solutions, 
                 creating therapies that adapt to each individual's unique biology and cognitive patterns.
             </p>
+        </div>
+    </div>
+</section>
+
+<!-- Why Now? Section -->
+<section class="py-32 bg-black">
+    <div class="container mx-auto px-6">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Why Now?</h2>
+            <div class="space-y-6 text-lg text-gray-300 leading-relaxed">
+                <p class="fade-in">
+                    For twelve years, we've worked in silence—researching, testing, refining. We waited 
+                    until we had proof: real transformations, validated outcomes, repeatable protocols.
+                </p>
+                <p class="fade-in">
+                    That proof now exists. We have case studies showing dramatic height adjustments, 
+                    age reversal, body recomposition, and even experimental hybrid augmentation. The data 
+                    is rigorous, the results reproducible, the science sound.
+                </p>
+                <p class="fade-in">
+                    We're breaking our silence because the work is too important to remain hidden, the 
+                    technologies too valuable to remain inaccessible, and the future too urgent to delay. 
+                    Human beings deserve tools to become more fully themselves.
+                </p>
+                <p class="fade-in text-xl font-semibold text-white">
+                    The science is ready. The technology is ready. The question is: are you ready?
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="py-32 bg-gradient-to-t from-gray-900 to-black" id="cta">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Join Us in Transforming the Future</h2>
+        <p class="text-xl text-gray-300 mb-12 max-w-3xl mx-auto fade-in leading-relaxed">
+            Whether you're seeking transformation, interested in investment opportunities, or want to 
+            learn more about our groundbreaking research, we invite you to become part of the ForeverBox story.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center fade-in">
+            <a href="pages/forever-fit.php" class="px-8 py-4 bg-fit-secondary text-white font-semibold rounded-full hover:bg-fit-primary transition-all transform hover:scale-105">
+                Begin Your Journey
+            </a>
+            <a href="pages/investment.php" class="px-8 py-4 bg-investment-secondary text-white font-semibold rounded-full hover:bg-investment-primary transition-all transform hover:scale-105">
+                Investment Opportunity
+            </a>
+            <a href="pages/about.php" class="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all transform hover:scale-105">
+                Contact Us
+            </a>
         </div>
     </div>
 </section>
