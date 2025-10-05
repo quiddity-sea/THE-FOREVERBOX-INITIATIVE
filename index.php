@@ -151,17 +151,50 @@ include __DIR__ . '/includes/header.php';
 <section class="py-32 bg-black">
     <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Why Now?</h2>
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Why Now? Breaking Twelve Years of Silence</h2>
             <div class="space-y-6 text-lg text-gray-300 leading-relaxed">
                 <p class="fade-in">
-                    For twelve years, we've worked in silence—researching, testing, refining. We waited 
-                    until we had proof: real transformations, validated outcomes, repeatable protocols.
+                    For twelve years, we've worked in absolute secrecy. Not because we feared ridicule, though 
+                    that would have been inevitable. Not because we doubted the science, though the path was 
+                    strewn with failures that would have broken lesser resolve.
                 </p>
                 <p class="fade-in">
-                    That proof now exists. We have case studies showing dramatic height adjustments, 
-                    age reversal, body recomposition, and even experimental hybrid augmentation. The data 
-                    is rigorous, the results reproducible, the science sound.
+                    <strong class="text-white">We remained silent until we had proof.</strong>
                 </p>
+                <p class="fade-in">
+                    The ForeverBox Initiative has spent over a decade combining quantum computational biology, 
+                    AI-guided cellular reprogramming, and precision biomanufacturing to achieve what humanity has 
+                    dreamed of since the first story was told around the first fire: the ability to rewrite our 
+                    own biology, to transcend the limitations nature imposed upon us, and to claim authorship over 
+                    our own physical existence.
+                </p>
+                
+                <div class="bg-gray-900/50 rounded-xl p-8 border border-white/10 my-8 fade-in">
+                    <h3 class="text-2xl font-bold mb-4 text-white">We Have Proof</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div>
+                            <p class="text-fit-secondary font-bold mb-2">Marcus Chen</p>
+                            <p class="text-sm">18 inches of height gained in 6 months. Zero complications. 
+                            Completed his first marathon 18 months post-treatment.</p>
+                        </div>
+                        <div>
+                            <p class="text-cases-secondary font-bold mb-2">Yuki Tanaka</p>
+                            <p class="text-sm">23 years of biological age reversed. From 67 to biological 44. 
+                            Cognitive function improved 35%, physical performance 58%.</p>
+                        </div>
+                        <div>
+                            <p class="text-science-secondary font-bold mb-2">David Okonkwo</p>
+                            <p class="text-sm">54kg fat loss, 12kg muscle gain simultaneously. Type 2 diabetes 
+                            completely remitted. Depression lifted.</p>
+                        </div>
+                        <div>
+                            <p class="text-origin-secondary font-bold mb-2">Dr. Zeon7</p>
+                            <p class="text-sm">7 years of hybrid augmentation. 10,000x olfactory enhancement, 
+                            extended auditory range, 40% faster healing. Living proof of concept.</p>
+                        </div>
+                    </div>
+                </div>
+                
                 <p class="fade-in">
                     We're breaking our silence because the work is too important to remain hidden, the 
                     technologies too valuable to remain inaccessible, and the future too urgent to delay. 

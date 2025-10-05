@@ -22,12 +22,343 @@ include __DIR__ . '/../includes/header.php';
 <section class="py-32 bg-black">
     <div class="container mx-auto px-6">
         <div class="max-w-4xl mx-auto text-center">
-            <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Leading by Example</h2>
-            <p class="text-xl text-gray-300 leading-relaxed fade-in">
-                Our founder, Dr. Zeon7, has undergone the most experimental and transformative protocol 
-                as living proof of what's possible. This is not theoretical research—this is personal 
-                commitment to the science of human biological enhancement.
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 fade-in">Transformations Beyond Imagination</h2>
+            <p class="text-xl text-gray-300 leading-relaxed fade-in mb-6">
+                For twelve years, we worked in silence. We waited until we had proof—not theoretical 
+                models or hopeful projections, but real transformations, validated outcomes, repeatable 
+                protocols that fundamentally challenged what biology declares "impossible."
             </p>
+            <p class="text-xl text-gray-300 leading-relaxed fade-in">
+                The case studies presented here represent participants who chose to undergo our most 
+                advanced protocols: height adjustment, biological age reversal, comprehensive body 
+                recomposition, and experimental hybrid augmentation. Each represents years of careful 
+                intervention, continuous monitoring, and courage to pursue transformation.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Case Study: Marcus Chen -->
+<section class="py-32 bg-gradient-to-b from-black to-cases-primary/10">
+    <div class="container mx-auto px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-12 text-center">
+                <span class="inline-block px-4 py-1 bg-cases-secondary/20 text-cases-secondary rounded-full text-sm font-semibold flip-card">
+                    Case Study Alpha
+                </span>
+                <h3 class="text-3xl md:text-5xl font-bold mt-6 mb-4">Marcus Chen</h3>
+                <p class="text-xl text-cases-secondary">Height Reconfiguration Protocol</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                <div class="slide-left">
+                    <div class="bg-cases-primary/20 rounded-2xl p-2 border border-cases-primary/30 cinematic-image">
+                        <div class="aspect-w-16 aspect-h-9 bg-gray-800 rounded-xl flex items-center justify-center">
+                            <div class="text-center p-8">
+                                <svg class="w-24 h-24 mx-auto text-cases-secondary mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                </svg>
+                                <p class="text-gray-400 text-sm">Height Transformation Visualization</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Key Metrics Box -->
+                    <div class="mt-8 bg-cases-primary/10 rounded-2xl p-6 border border-cases-primary/30">
+                        <h4 class="text-xl font-bold mb-4 text-cases-secondary">Key Metrics</h4>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex justify-between">
+                                <span>Age:</span>
+                                <strong class="text-white counter" data-target="30" data-duration="2">30</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Initial Height:</span>
+                                <strong class="text-white">4'6" (137cm)</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Final Height:</span>
+                                <strong class="text-white">6'0" (183cm)</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Height Gain:</span>
+                                <strong class="text-white counter" data-target="18" data-duration="2">18</strong> <span>inches (46cm)</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Duration:</span>
+                                <strong class="text-white">24 weeks</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Complications:</span>
+                                <strong class="text-white">Zero</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Satisfaction:</span>
+                                <strong class="text-white">10/10</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="slide-right space-y-6">
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">Profile</h4>
+                        <p class="text-gray-300">30-year-old financial analyst from Manchester. Despite cognitive brilliance and educational achievement, Marcus faced constant discrimination, social marginalisation, and profound psychological distress related to his stature of 4'6" due to growth hormone deficiency in childhood.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">The Challenge</h4>
+                        <p class="text-gray-300">Traditional medical consensus held that nothing could be done. Growth plates fuse in late adolescence, the developmental window closes, and adult height becomes immutable. Marcus had exhausted conventional options and faced a lifetime of physical and professional limitations.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">The Protocol</h4>
+                        <div class="space-y-4 text-gray-300">
+                            <div>
+                                <p class="font-semibold text-cases-secondary mb-2">Phase One (Weeks 1-4): Epigenetic Priming</p>
+                                <p>Targeted gene therapy partially reactivated growth plate chondrocytes in Marcus's long bones, essentially convincing these cells they were developmentally younger. Simultaneous hormonal modulation created a localised "second puberty" environment in skeletal tissues without systemic effects.</p>
+                            </div>
+                            
+                            <div>
+                                <p class="font-semibold text-cases-secondary mb-2">Phase Two (Weeks 5-12): Controlled Lengthening</p>
+                                <p>Guided by real-time quantum imaging, we induced controlled microfractures along growth vectors, immediately filled by stem cell-enriched scaffolding that ossified under precisely calibrated mechanical loading. Marcus wore custom exoskeletal supports that provided structural stability and calculated tension to guide bone formation.</p>
+                            </div>
+                            
+                            <div>
+                                <p class="font-semibold text-cases-secondary mb-2">Phase Three (Weeks 13-24): Integration and Optimisation</p>
+                                <p>As skeletal lengthening progressed, we simultaneously elongated associated soft tissues—muscles, tendons, neurovascular structures—through targeted growth factors, mechanical stimulation, and regenerative medicine. The result was proportional, functional lengthening across all body systems.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">Outcome</h4>
+                        <p class="text-gray-300 mb-3">Marcus gained 18 inches over six months, with zero complications, full functional integration, and psychological outcomes he describes as "life-altering beyond measure." He experienced no chronic pain, retained full athletic function, and his bone density scans show completely normal architecture.</p>
+                        <p class="text-gray-300">Follow-up at 18 months post-treatment shows stable outcomes with no regression. Marcus recently completed his first marathon.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Case Study: Yuki Tanaka -->
+<section class="py-32 bg-black">
+    <div class="container mx-auto px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-12 text-center">
+                <span class="inline-block px-4 py-1 bg-cases-secondary/20 text-cases-secondary rounded-full text-sm font-semibold flip-card">
+                    Case Study Beta
+                </span>
+                <h3 class="text-3xl md:text-5xl font-bold mt-6 mb-4">Yuki Tanaka</h3>
+                <p class="text-xl text-cases-secondary">Cellular Age Reversal Protocol</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                <div class="slide-left order-2 lg:order-1">
+                    <div class="space-y-6 text-gray-300">
+                        <div>
+                            <h4 class="text-xl font-bold mb-3 text-white">Profile</h4>
+                            <p>67-year-old retired professor from Kyoto. Yuki arrived at our facility with the comprehensive deterioration typical of seventh-decade aging: declining cardiovascular function, early-stage neurodegeneration, sarcopenia, reduced bone density, and the fatigue and cognitive fog that accompany systemic cellular senescence.</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-xl font-bold mb-3 text-white">The Challenge</h4>
+                            <p>She had perhaps fifteen years remaining, and those years would be marked by progressive decline. She wanted more. She wanted vitality. Traditional medicine offered symptom management but no pathway to fundamental biological rejuvenation.</p>
+                        </div>
+                        
+                        <div>
+                            <h4 class="text-xl font-bold mb-3 text-white">The Protocol</h4>
+                            <div class="space-y-4">
+                                <div>
+                                    <p class="font-semibold text-cases-secondary mb-2">Phase One (Months 1-3): Senescent Cell Clearance</p>
+                                    <p>Systemic administration of advanced senolytic compounds cleared accumulated "zombie cells" that poison surrounding tissues with inflammatory signals. Simultaneously, targeted immune therapies trained Yuki's immune system to recognise and eliminate senescent cells on an ongoing basis.</p>
+                                </div>
+                                
+                                <div>
+                                    <p class="font-semibold text-cases-secondary mb-2">Phase Two (Months 4-6): Epigenetic Reset</p>
+                                    <p>Using our oscillating partial reprogramming protocol, we systematically reset the epigenetic clocks across Yuki's tissues. Her cells retained their mature identity but their internal "age counter" was wound backwards. DNA methylation patterns shifted towards youthful configurations, mitochondrial function improved, and protein homeostasis was restored.</p>
+                                </div>
+                                
+                                <div>
+                                    <p class="font-semibold text-cases-secondary mb-2">Phase Three (Months 7-9): Regenerative Enhancement</p>
+                                    <p>With her cellular environment now biologically younger, we introduced targeted stem cell therapies to regenerate tissues that had atrophied or degraded. New muscle fibres, renewed neural networks, revitalised skin architecture.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide-right order-1 lg:order-2">
+                    <div class="bg-cases-primary/20 rounded-2xl p-2 border border-cases-primary/30 cinematic-image">
+                        <div class="aspect-w-16 aspect-h-9 bg-gray-800 rounded-xl flex items-center justify-center">
+                            <div class="text-center p-8">
+                                <svg class="w-24 h-24 mx-auto text-cases-secondary mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                </svg>
+                                <p class="text-gray-400 text-sm">Age Reversal Visualization</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Key Metrics Box -->
+                    <div class="mt-8 bg-cases-primary/10 rounded-2xl p-6 border border-cases-primary/30">
+                        <h4 class="text-xl font-bold mb-4 text-cases-secondary">Key Metrics</h4>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex justify-between">
+                                <span>Chronological Age:</span>
+                                <strong class="text-white counter" data-target="67" data-duration="2">67</strong> <span>years</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Biological Age (Pre):</span>
+                                <strong class="text-white">67 years</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Biological Age (Post):</span>
+                                <strong class="text-white counter" data-target="44" data-duration="2">44</strong> <span>years</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Age Reversal:</span>
+                                <strong class="text-white counter" data-target="23" data-duration="2">23</strong> <span>years</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Duration:</span>
+                                <strong class="text-white">9 months</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Cognitive Improvement:</span>
+                                <strong class="text-white counter" data-target="35" data-duration="2">35</strong>%
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Physical Performance:</span>
+                                <strong class="text-white counter" data-target="58" data-duration="2">58</strong>%
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-12 max-w-4xl mx-auto">
+                <div class="bg-cases-secondary/10 rounded-xl p-8 border-l-4 border-cases-secondary fade-in">
+                    <h4 class="text-xl font-bold mb-3 text-white">Outcome</h4>
+                    <p class="text-gray-300 mb-4">
+                        Yuki's biological age, measured through multiple established biomarkers (DNA methylation clocks, telomere length, inflammatory markers, functional capacity), decreased by 23 years. A 67-year-old woman now possesses the cellular physiology of someone in their mid-forties.
+                    </p>
+                    <p class="text-gray-300 mb-4">
+                        More importantly, she feels transformed. Chronic fatigue has vanished. Cognitive sharpness has returned. She has resumed hiking, has started a new academic project, and describes feeling "as though someone turned the lights back on."
+                    </p>
+                    <p class="text-gray-300">
+                        Her cardiovascular markers show a 40% improvement, her grey matter volume has increased measurably, and her muscle mass and bone density have returned to levels typical of middle age.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Case Study: David Okonkwo -->
+<section class="py-32 bg-gradient-to-b from-black to-cases-primary/10">
+    <div class="container mx-auto px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="mb-12 text-center">
+                <span class="inline-block px-4 py-1 bg-cases-secondary/20 text-cases-secondary rounded-full text-sm font-semibold flip-card">
+                    Case Study Gamma
+                </span>
+                <h3 class="text-3xl md:text-5xl font-bold mt-6 mb-4">David Okonkwo</h3>
+                <p class="text-xl text-cases-secondary">Comprehensive Body Recomposition Protocol</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+                <div class="slide-left">
+                    <div class="bg-cases-primary/20 rounded-2xl p-2 border border-cases-primary/30 cinematic-image">
+                        <div class="aspect-w-16 aspect-h-9 bg-gray-800 rounded-xl flex items-center justify-center">
+                            <div class="text-center p-8">
+                                <svg class="w-24 h-24 mx-auto text-cases-secondary mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                </svg>
+                                <p class="text-gray-400 text-sm">Body Recomposition Visualization</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Key Metrics Box -->
+                    <div class="mt-8 bg-cases-primary/10 rounded-2xl p-6 border border-cases-primary/30">
+                        <h4 class="text-xl font-bold mb-4 text-cases-secondary">Key Metrics</h4>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex justify-between">
+                                <span>Age:</span>
+                                <strong class="text-white counter" data-target="42" data-duration="2">42</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Initial Weight:</span>
+                                <strong class="text-white">168 kg</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Final Weight:</span>
+                                <strong class="text-white">126 kg</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Fat Loss:</span>
+                                <strong class="text-white counter" data-target="54" data-duration="2">54</strong> <span>kg</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Muscle Gain:</span>
+                                <strong class="text-white counter" data-target="12" data-duration="2">12</strong> <span>kg</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Body Fat:</span>
+                                <strong class="text-white">42% → 18%</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Diabetes:</span>
+                                <strong class="text-white">Complete Remission</strong>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Duration:</span>
+                                <strong class="text-white">8 months</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="slide-right space-y-6">
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">Profile</h4>
+                        <p class="text-gray-300">42-year-old lorry driver from Birmingham presenting with severe obesity (168 kg at 5'10"), type 2 diabetes, and depression. Despite multiple attempts at dietary intervention, exercise programmes, and even bariatric surgery consultation, David's body seemed locked in a state of relentless fat accumulation.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">The Challenge</h4>
+                        <p class="text-gray-300">David's adipose tissue had become endocrinologically active in pathological ways, secreting hormones that reinforced hunger, reduced satiety, and promoted further fat storage. He was trapped in a biological feedback loop that willpower alone could not break.</p>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">The Protocol</h4>
+                        <div class="space-y-4 text-gray-300">
+                            <div>
+                                <p class="font-semibold text-cases-secondary mb-2">Phase One (Months 1-2): Metabolic Reprogramming</p>
+                                <p>Targeted gene therapy modified David's adipose tissue at the cellular level, shifting white fat (storage) towards beige fat (metabolically active). Simultaneously, we reset his hypothalamic leptin sensitivity, the mechanism by which the brain registers satiety, which had been disrupted by years of chronic elevation.</p>
+                            </div>
+                            
+                            <div>
+                                <p class="font-semibold text-cases-secondary mb-2">Phase Two (Months 3-6): Accelerated Lipolysis with Muscle Synthesis</p>
+                                <p>Through pharmaceutical compounds, modified naturally occurring hormones, and AI-optimised nutrition protocols, we induced rapid but controlled fat mobilisation. Critically, we did this whilst simultaneously deploying muscle-specific stem cells and myostatin inhibitors to promote muscle growth—losing fat and gaining muscle simultaneously.</p>
+                            </div>
+                            
+                            <div>
+                                <p class="font-semibold text-cases-secondary mb-2">Phase Three (Months 7-8): Structural Integration and Metabolic Stabilisation</p>
+                                <p>As David's body transformed, we focused on skin elasticity (avoiding excess skin typical of massive weight loss through targeted collagen remodelling), joint health, and creating a new metabolic setpoint that would be self-sustaining.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-xl font-bold mb-3 text-white">Outcome</h4>
+                        <p class="text-gray-300 mb-3">In eight months, David lost 54 kilograms of fat whilst gaining 12 kilograms of muscle. His final weight of 126 kg reflects a body composition of approximately 18% body fat with significantly increased muscle mass, a dramatic reversal from his initial 42% body fat.</p>
+                        <p class="text-gray-300 mb-3">His type 2 diabetes has completely remitted. He requires no medication. His HbA1c levels are within normal range. His depression, which was largely biological in origin related to inflammatory markers from adipose tissue, has lifted.</p>
+                        <p class="text-gray-300">David describes the transformation as "reclaiming my life." He has returned to activities he loved in his youth, has begun competitive amateur boxing, and reports energy levels he hasn't experienced since his twenties.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
