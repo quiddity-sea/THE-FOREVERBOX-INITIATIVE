@@ -3,6 +3,10 @@
  * Header Template
  * ForeverBox Initiative
  */
+
+// Determine the base path based on where we're being included from
+// If we're in a subdirectory (pages/), we need to go up one level
+$basePath = (basename(dirname($_SERVER['PHP_SELF'])) === 'pages') ? '../' : '';
 ?>
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
@@ -20,7 +24,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     
     <!-- Custom Styles -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="<?php echo $basePath; ?>css/style.css">
     
     <!-- Tailwind Config -->
     <script>
@@ -98,18 +102,18 @@
         <div class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
                 <!-- Logo -->
-                <a href="/" class="text-2xl font-bold tracking-tight hover:opacity-80 transition-opacity">
+                <a href="<?php echo $basePath; ?>index.php" class="text-2xl font-bold tracking-tight hover:opacity-80 transition-opacity">
                     ForeverBox
                 </a>
                 
                 <!-- Desktop Navigation -->
                 <ul class="hidden md:flex space-x-8 items-center">
-                    <li><a href="/pages/origin.php" class="nav-link hover:text-origin-secondary transition-colors">Origin</a></li>
-                    <li><a href="/pages/science.php" class="nav-link hover:text-science-secondary transition-colors">Science</a></li>
-                    <li><a href="/pages/case-studies.php" class="nav-link hover:text-cases-secondary transition-colors">Case Studies</a></li>
-                    <li><a href="/pages/forever-fit.php" class="nav-link hover:text-fit-secondary transition-colors">Forever Fit</a></li>
-                    <li><a href="/pages/investment.php" class="nav-link hover:text-investment-secondary transition-colors">Investment</a></li>
-                    <li><a href="/pages/vision.php" class="nav-link hover:text-vision-secondary transition-colors">Vision</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/origin.php" class="nav-link hover:text-origin-secondary transition-colors">Origin</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/science.php" class="nav-link hover:text-science-secondary transition-colors">Science</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/case-studies.php" class="nav-link hover:text-cases-secondary transition-colors">Case Studies</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/forever-fit.php" class="nav-link hover:text-fit-secondary transition-colors">Forever Fit</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/investment.php" class="nav-link hover:text-investment-secondary transition-colors">Investment</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/vision.php" class="nav-link hover:text-vision-secondary transition-colors">Vision</a></li>
                 </ul>
                 
                 <!-- Mobile Menu Button -->
@@ -123,12 +127,12 @@
             <!-- Mobile Navigation -->
             <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4">
                 <ul class="space-y-3">
-                    <li><a href="/pages/origin.php" class="block py-2 hover:text-origin-secondary transition-colors">Origin</a></li>
-                    <li><a href="/pages/science.php" class="block py-2 hover:text-science-secondary transition-colors">Science</a></li>
-                    <li><a href="/pages/case-studies.php" class="block py-2 hover:text-cases-secondary transition-colors">Case Studies</a></li>
-                    <li><a href="/pages/forever-fit.php" class="block py-2 hover:text-fit-secondary transition-colors">Forever Fit</a></li>
-                    <li><a href="/pages/investment.php" class="block py-2 hover:text-investment-secondary transition-colors">Investment</a></li>
-                    <li><a href="/pages/vision.php" class="block py-2 hover:text-vision-secondary transition-colors">Vision</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/origin.php" class="block py-2 hover:text-origin-secondary transition-colors">Origin</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/science.php" class="block py-2 hover:text-science-secondary transition-colors">Science</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/case-studies.php" class="block py-2 hover:text-cases-secondary transition-colors">Case Studies</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/forever-fit.php" class="block py-2 hover:text-fit-secondary transition-colors">Forever Fit</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/investment.php" class="block py-2 hover:text-investment-secondary transition-colors">Investment</a></li>
+                    <li><a href="<?php echo $basePath; ?>pages/vision.php" class="block py-2 hover:text-vision-secondary transition-colors">Vision</a></li>
                 </ul>
             </div>
         </div>

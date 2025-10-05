@@ -48,7 +48,7 @@ include __DIR__ . '/includes/header.php';
         <!-- Cards Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Origin Card -->
-            <a href="/pages/origin.php" class="group block card-hover">
+            <a href="pages/origin.php" class="group block card-hover">
                 <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-origin-primary to-origin-secondary p-8 h-80 flex flex-col justify-end transform transition-all duration-500 hover:scale-105">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
                     <div class="relative z-10">
@@ -60,7 +60,7 @@ include __DIR__ . '/includes/header.php';
             </a>
             
             <!-- Science Card -->
-            <a href="/pages/science.php" class="group block card-hover">
+            <a href="pages/science.php" class="group block card-hover">
                 <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-science-primary to-science-secondary p-8 h-80 flex flex-col justify-end transform transition-all duration-500 hover:scale-105">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
                     <div class="relative z-10">
@@ -72,7 +72,7 @@ include __DIR__ . '/includes/header.php';
             </a>
             
             <!-- Case Studies Card -->
-            <a href="/pages/case-studies.php" class="group block card-hover">
+            <a href="pages/case-studies.php" class="group block card-hover">
                 <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-cases-primary to-cases-secondary p-8 h-80 flex flex-col justify-end transform transition-all duration-500 hover:scale-105">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
                     <div class="relative z-10">
@@ -84,7 +84,7 @@ include __DIR__ . '/includes/header.php';
             </a>
             
             <!-- Forever Fit Card -->
-            <a href="/pages/forever-fit.php" class="group block card-hover">
+            <a href="pages/forever-fit.php" class="group block card-hover">
                 <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-fit-primary to-fit-secondary p-8 h-80 flex flex-col justify-end transform transition-all duration-500 hover:scale-105">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
                     <div class="relative z-10">
@@ -96,7 +96,7 @@ include __DIR__ . '/includes/header.php';
             </a>
             
             <!-- Investment Card -->
-            <a href="/pages/investment.php" class="group block card-hover">
+            <a href="pages/investment.php" class="group block card-hover">
                 <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-investment-primary to-investment-secondary p-8 h-80 flex flex-col justify-end transform transition-all duration-500 hover:scale-105">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
                     <div class="relative z-10">
@@ -108,7 +108,7 @@ include __DIR__ . '/includes/header.php';
             </a>
             
             <!-- Vision Card -->
-            <a href="/pages/vision.php" class="group block card-hover">
+            <a href="pages/vision.php" class="group block card-hover">
                 <div class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-vision-primary to-vision-secondary p-8 h-80 flex flex-col justify-end transform transition-all duration-500 hover:scale-105">
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
                     <div class="relative z-10">

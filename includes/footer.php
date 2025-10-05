@@ -17,12 +17,12 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Explore</h3>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="/pages/origin.php" class="text-gray-400 hover:text-white transition-colors">Origin</a></li>
-                        <li><a href="/pages/science.php" class="text-gray-400 hover:text-white transition-colors">Science</a></li>
-                        <li><a href="/pages/case-studies.php" class="text-gray-400 hover:text-white transition-colors">Case Studies</a></li>
-                        <li><a href="/pages/forever-fit.php" class="text-gray-400 hover:text-white transition-colors">Forever Fit</a></li>
-                        <li><a href="/pages/investment.php" class="text-gray-400 hover:text-white transition-colors">Investment</a></li>
-                        <li><a href="/pages/vision.php" class="text-gray-400 hover:text-white transition-colors">Vision</a></li>
+                        <li><a href="<?php echo $basePath; ?>pages/origin.php" class="text-gray-400 hover:text-white transition-colors">Origin</a></li>
+                        <li><a href="<?php echo $basePath; ?>pages/science.php" class="text-gray-400 hover:text-white transition-colors">Science</a></li>
+                        <li><a href="<?php echo $basePath; ?>pages/case-studies.php" class="text-gray-400 hover:text-white transition-colors">Case Studies</a></li>
+                        <li><a href="<?php echo $basePath; ?>pages/forever-fit.php" class="text-gray-400 hover:text-white transition-colors">Forever Fit</a></li>
+                        <li><a href="<?php echo $basePath; ?>pages/investment.php" class="text-gray-400 hover:text-white transition-colors">Investment</a></li>
+                        <li><a href="<?php echo $basePath; ?>pages/vision.php" class="text-gray-400 hover:text-white transition-colors">Vision</a></li>
                     </ul>
                 </div>
                 
@@ -44,7 +44,7 @@
     </footer>
     
     <!-- Custom JavaScript -->
-    <script src="/js/animations.js"></script>
+    <script src="<?php echo $basePath; ?>js/animations.js"></script>
     <script>
         // Mobile menu toggle
         const mobileMenuBtn = document.getElementById('mobile-menu-btn');
