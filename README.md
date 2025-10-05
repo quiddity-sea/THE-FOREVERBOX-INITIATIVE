@@ -9,12 +9,14 @@ This is a PHP-based website with MariaDB backend, featuring HTML5, Tailwind CSS,
 ## Features
 
 - **Six Editorial Pages**: Origin, Science, Case Studies, Forever Fit, Investment, Vision
+- **About/Contact Page**: Team information, contact forms, and newsletter signup
 - **Unique Color Identities**: Each page has its own distinct color palette
 - **Neurodivergent-First Design**: Accessibility built-in from the ground up
 - **GSAP Animations**: Smooth, cinematic animations with reduced-motion support
 - **Responsive Design**: Works beautifully on all devices
 - **PHP Backend**: Dynamic content management ready
 - **MariaDB Database**: Structured content storage
+- **Image Documentation**: Comprehensive guide for required visual assets
 
 ## Tech Stack
 
@@ -139,6 +141,26 @@ Each section has a unique color identity:
 - Semantic HTML for screen readers
 - Flexible typography and spacing
 - Sensory-aware color choices
+
+## Images & Visual Assets
+
+The website currently uses gradient placeholders with SVG icons. For production deployment, actual images need to be added.
+
+**See `/images/IMAGES-NEEDED.md` for a comprehensive list** of required images including:
+- Hero backgrounds for each page (1920x1080+)
+- Dr. Zeon7 portraits showing lupine features
+- Forever Fit app mockups (phone and tablet)
+- Laboratory and facility photography
+- Welsh landscape imagery
+- Scientific visualizations
+
+**Priority images:**
+1. Dr. Zeon7 professional portrait (main)
+2. Homepage hero background
+3. Forever Fit app mockups
+4. Page hero images for Origin, Science, Case Studies, Investment, Vision
+
+All images should be optimized for web (WebP with fallbacks), include appropriate alt text, and follow accessibility guidelines. See the images README for technical specifications.
 
 ## Development
 
