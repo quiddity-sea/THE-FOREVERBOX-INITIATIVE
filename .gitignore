@@ -1,0 +1,35 @@
+# PHP
+vendor/
+composer.lock
+*.log
+
+# Database
+*.sql
+!schema.sql
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if using npm for frontend tools)
+node_modules/
+package-lock.json
+
+# Build artifacts
+dist/
+build/
