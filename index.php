@@ -28,7 +28,7 @@ include __DIR__ . '/includes/header.php';
             Fusing quantum biology, AI-guided therapies, and ethical autonomy.
         </p>
         <p class="text-lg md:text-xl text-gray-400 mb-12 max-w-2xl mx-auto" id="hero-description">
-            From Snowdonia labs to global digital health, we transform height, aging, and human potential through Forever Fit.
+            From Snowdonia labs to global digital health—pioneering clinical interventions and the Forever Fit app for accessible, neurodivergent-first wellness.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="pages/science.php" class="inline-block px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-gray-200 transition-all transform hover:scale-105" id="hero-cta">
@@ -97,7 +97,7 @@ include __DIR__ . '/includes/header.php';
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
                     <div class="relative z-10">
                         <h3 class="text-3xl font-bold mb-3">Forever Fit</h3>
-                        <p class="text-gray-200">Transforming Human Potential</p>
+                        <p class="text-gray-200">Digital Health Platform</p>
                     </div>
                     <div class="absolute top-8 right-8 w-16 h-16 rounded-full bg-white/10 backdrop-blur-sm"></div>
                 </div>

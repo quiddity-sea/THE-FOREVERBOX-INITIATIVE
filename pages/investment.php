@@ -143,8 +143,8 @@ include __DIR__ . '/../includes/header.php';
                     <div class="text-4xl font-bold text-investment-secondary mb-3">B2C</div>
                     <h3 class="text-xl font-bold mb-3">Direct-to-Consumer</h3>
                     <p class="text-gray-300">
-                        Forever Fit programs offered directly to individuals through subscription and 
-                        one-time protocol fees.
+                        Forever Fit app subscriptions (freemium model) and clinical services offered 
+                        directly to individuals.
                     </p>
                 </div>
                 
@@ -173,7 +173,7 @@ include __DIR__ . '/../includes/header.php';
                         <svg class="w-6 h-6 text-investment-secondary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                         </svg>
-                        <span><strong>Forever Fit Subscriptions:</strong> Recurring monthly revenue from ongoing protocols</span>
+                        <span><strong>Forever Fit App Subscriptions:</strong> Recurring monthly revenue from Premium tier (£9.99/month)</span>
                     </li>
                     <li class="flex items-start gap-3">
                         <svg class="w-6 h-6 text-investment-secondary mt-1 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
@@ -213,8 +213,9 @@ include __DIR__ . '/../includes/header.php';
                     <div class="text-sm text-gray-400">18-month runway to scale operations</div>
                 </div>
                 <p class="text-lg text-gray-300 leading-relaxed">
-                    This funding will accelerate our platform development, expand clinical trials, 
-                    scale Forever Fit offerings, and build strategic partnerships across the digital health ecosystem.
+                    This funding will accelerate Forever Fit app development and launch, expand clinical 
+                    trial capacity, scale our clinical services, and build strategic partnerships across 
+                    the digital health ecosystem.
                 </p>
             </div>
             
