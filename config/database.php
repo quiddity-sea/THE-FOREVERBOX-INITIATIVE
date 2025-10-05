@@ -5,12 +5,23 @@
  */
 
 class Database {
-    private $host = 'localhost';
-    private $db_name = 'foreverbox_initiative';
-    private $username = 'root';
-    private $password = '';
+    private $host;
+    private $db_name;
+    private $username;
+    private $password;
     private $charset = 'utf8mb4';
     public $conn;
+    
+    public function __construct() {
+        // Load environment variables
+        self::loadEnv();
+        
+        // Set database credentials from environment or defaults
+        $this->host = getenv('DB_HOST') ?: 'localhost';
+        $this->db_name = getenv('DB_NAME') ?: 'foreverbox_initiative';
+        $this->username = getenv('DB_USER') ?: 'foreverbox';
+        $this->password = getenv('DB_PASSWORD') ?: 'foreverbox123';
+    }
 
     /**
      * Establish database connection
