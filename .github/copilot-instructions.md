@@ -25,7 +25,8 @@ php -l filename.php
 **Database (Optional - site works without it):**
 ```bash
 mysql -u root -p -e "CREATE DATABASE foreverbox_initiative;"
-mysql -u root -p foreverbox_initiative < schema.sql
+mysql -u root -p foreverbox_initiative < config/db-files/schema.sql
+mysql -u root -p foreverbox_initiative < config/db-files/comprehensive_seed.sql
 cp .env.example .env  # Edit with DB credentials
 ```
 
@@ -33,7 +34,12 @@ cp .env.example .env  # Edit with DB credentials
 
 ```
 ├── .github/               # GitHub configuration
-├── config/database.php    # PDO connection class
+├── config/
+│   ├── database.php       # PDO connection class
+│   └── db-files/          # Database files
+│       ├── schema.sql     # Database schema
+│       └── comprehensive_seed.sql  # Seed data
+├── documentation/         # Project documentation
 ├── includes/
 │   ├── header.php         # Nav, <head>, Tailwind config
 │   └── footer.php         # Scripts, footer
@@ -44,7 +50,7 @@ cp .env.example .env  # Edit with DB credentials
 ├── js/animations.js       # GSAP animations (269 lines)
 ├── images/                # Assets (currently gradients)
 ├── index.php              # Homepage (286 lines)
-└── schema.sql, .env.example, docs (.md files)
+└── .env.example, README.md
 ```
 
 **Key Facts:**

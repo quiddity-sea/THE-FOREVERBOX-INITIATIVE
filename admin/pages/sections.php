@@ -7,8 +7,8 @@ require_once __DIR__ . '/../includes/auth.php';
 requireLogin();
 
 require_once __DIR__ . '/../../config/database.php';
-require_once __DIR__ . '/../../models/Page.php';
-require_once __DIR__ . '/../../models/ContentSection.php';
+require_once __DIR__ . '/../../models/page.php';
+require_once __DIR__ . '/../../models/content-section.php';
 
 $database = new Database();
 $db = $database->getConnection();

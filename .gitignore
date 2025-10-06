@@ -6,6 +6,8 @@ composer.lock
 # Database
 *.sql
 !schema.sql
+!config/db-files/schema.sql
+!config/db-files/comprehensive_seed.sql
 
 # Environment
 .env
