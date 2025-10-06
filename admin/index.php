@@ -18,7 +18,7 @@ $pages = $pageModel->getAll();
 // Get stats
 $statsQuery = "SELECT 
     (SELECT COUNT(*) FROM pages WHERE is_active = 1) as total_pages,
-    (SELECT COUNT(*) FROM content_sections WHERE is_active = 1) as total_sections,
+    (SELECT COUNT(*) FROM content_sections) as total_sections,
     (SELECT COUNT(*) FROM contact_submissions WHERE status = 'new') as new_contacts,
     (SELECT COUNT(*) FROM newsletter_subscribers WHERE status = 'active') as subscribers";
 $stmt = $db->prepare($statsQuery);

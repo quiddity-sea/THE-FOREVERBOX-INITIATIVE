@@ -16,7 +16,7 @@ class ContentSection {
      * Get sections by page ID
      */
     public function getByPageId($pageId) {
-        $query = "SELECT * FROM " . $this->table . " WHERE page_id = :page_id AND is_active = 1 ORDER BY section_order ASC";
+        $query = "SELECT * FROM " . $this->table . " WHERE page_id = :page_id ORDER BY section_order ASC";
         $stmt = $this->conn->prepare($query);
         $stmt->bindParam(':page_id', $pageId);
         $stmt->execute();
@@ -92,7 +92,7 @@ class ContentSection {
      * Delete section
      */
     public function delete($id) {
-        $query = "UPDATE " . $this->table . " SET is_active = 0 WHERE id = :id";
+        $query = "DELETE FROM " . $this->table . " WHERE id = :id";
         $stmt = $this->conn->prepare($query);
         $stmt->bindParam(':id', $id);
         return $stmt->execute();
