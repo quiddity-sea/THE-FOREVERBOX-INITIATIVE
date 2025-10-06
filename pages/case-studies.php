@@ -1,8 +1,16 @@
 <?php
 /**
  * Case Studies Page - ForeverBox Initiative
+ * Now database-driven
  */
 
+// Include dynamic page template
+include __DIR__ . '/../includes/page-template.php';
+
+// Template handles everything - no additional code needed
+return;
+
+// ===== ORIGINAL STATIC CONTENT BELOW (KEPT FOR REFERENCE) =====
 $pageTitle = "Case Studies";
 include __DIR__ . '/../includes/header.php';
 ?>

@@ -5,6 +5,18 @@
 USE foreverbox_initiative;
 
 -- =============================================================================
+-- HERO SECTIONS FOR ALL PAGES
+-- =============================================================================
+
+INSERT INTO content_sections (page_id, section_type, heading, subheading, css_classes, animation_class, section_order) VALUES
+((SELECT id FROM pages WHERE slug = 'origin'), 'hero', 'Origin', 'From Snowdonia to a Global Vision', '', 'fade-in', 0),
+((SELECT id FROM pages WHERE slug = 'science'), 'hero', 'Science', 'Quantum Biology Meets Innovation', '', 'fade-in', 0),
+((SELECT id FROM pages WHERE slug = 'case-studies'), 'hero', 'Case Studies', 'Real Impact, Real Results', '', 'fade-in', 0),
+((SELECT id FROM pages WHERE slug = 'forever-fit'), 'hero', 'Forever Fit', 'Transforming Human Potential', '', 'fade-in', 0),
+((SELECT id FROM pages WHERE slug = 'investment'), 'hero', 'Investment', 'Join the Future of Digital Health', '', 'fade-in', 0),
+((SELECT id FROM pages WHERE slug = 'vision'), 'hero', 'Vision', 'The Path Forward', '', 'fade-in', 0);
+
+-- =============================================================================
 -- ORIGIN PAGE CONTENT
 -- =============================================================================
 
