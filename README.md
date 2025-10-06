@@ -47,7 +47,11 @@ This is a PHP-based website with MariaDB backend, featuring HTML5, Tailwind CSS,
    - Create a MySQL/MariaDB database
    - Import the schema:
    ```bash
-   mysql -u your_username -p your_database_name < schema.sql
+   mysql -u your_username -p your_database_name < config/db-files/schema.sql
+   ```
+   - Import seed data (optional but recommended):
+   ```bash
+   mysql -u your_username -p your_database_name < config/db-files/comprehensive_seed.sql
    ```
 
 3. **Configure environment**
@@ -99,7 +103,15 @@ This is a PHP-based website with MariaDB backend, featuring HTML5, Tailwind CSS,
 ```
 THE-FOREVERBOX-INITIATIVE/
 ├── config/
-│   └── database.php          # Database configuration
+│   ├── database.php          # Database configuration
+│   └── db-files/             # Database setup files
+│       ├── schema.sql        # Database schema
+│       └── comprehensive_seed.sql  # Seed data
+├── documentation/            # Project documentation
+│   ├── context/              # Source content files
+│   ├── deployment.md         # Deployment guide
+│   ├── sitemap.md            # Site structure
+│   └── *-info-doc.md         # Page-specific documentation
 ├── includes/
 │   ├── header.php            # Site header template
 │   └── footer.php            # Site footer template
@@ -118,7 +130,6 @@ THE-FOREVERBOX-INITIATIVE/
 ├── index.php                 # Homepage
 ├── .env.example              # Environment variables template
 ├── .gitignore               # Git ignore rules
-├── schema.sql               # Database schema
 └── README.md                # This file
 ```
 

@@ -38,13 +38,25 @@ DB_PASS=your_db_password
 Import the database schema:
 
 ```bash
-mysql -u your_db_user -p < schema.sql
+mysql -u your_db_user -p foreverbox_initiative < config/db-files/schema.sql
 ```
 
 Or using MariaDB:
 
 ```bash
-mariadb -u your_db_user -p < schema.sql
+mariadb -u your_db_user -p foreverbox_initiative < config/db-files/schema.sql
+```
+
+Import seed data (recommended):
+
+```bash
+mysql -u your_db_user -p foreverbox_initiative < config/db-files/comprehensive_seed.sql
+```
+
+Or using MariaDB:
+
+```bash
+mariadb -u your_db_user -p foreverbox_initiative < config/db-files/comprehensive_seed.sql
 ```
 
 ### 4. Configure Web Server
